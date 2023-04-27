@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #0080ff;
+    --secondary-color: #000000;
+    --background-color: #ffffff;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.cta {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+  }
+  
+  .cta h2 {
+    font-size: 48px;
+    margin: 1em;
+  }

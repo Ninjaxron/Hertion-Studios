@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #0080ff;
+    --secondary-color: #000000;
+    --background-color: #ffffff;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.background-image {
+    background-image: url("/Pictures/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background-image h1 {
+    font-size: 64px;
+    color: var(--background-color);
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
